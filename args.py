@@ -1,36 +1,36 @@
-# # def mycountry(country="Rwanda")
-# # print(f"Hello from{country}")
+# def mycountry(country="Rwanda")
+# print(f"Hello from{country}")
 
 
-# def greet(*names):
-#     for name in names: 
-#         print(f"Hello{name}")
+def greet(*names):
+    for name in names: 
+        print(f"Hello{name}")
 
 
 
-# def sum(*numbers):
-#     answer=0
-# for number in numbers 
-#     answer+=number
+def sum(*numbers):
+    answer=0
+for number in numbers 
+    answer+=number
 
 
-# return answer
+return answer
 
-# # //create a function that acan accept any number of itegers 
+# # //create a function that can accept any number of itegers 
 # # //and return the results of multiply and all of them
-# def multiply(*nums):
-#     answer=1
-#     for num in nums:
-#     answer=number
+def multiply(*nums):
+    answer=1
+    for num in nums:
+    answer=number
 
 
-#     return answer
+    return answer
 
 
 
-# def student_attributes(**kwargs):
-#     for key,value in kwargs.items():
-#         print(f"{key} : {value}")
+def student_attributes(**kwargs):
+    for key,value in kwargs.items():
+        print(f"{key} : {value}")
 
 
 
@@ -45,7 +45,7 @@ def concatenate_args(*stringy, sep="/"):
 
     #   // A function named concatenate_kwargs that takes any number of string arguments in 
     #   //keyword arguments  format and concatenates them into a single string
-  def concatenate_kwargs(*kwargs):
+  def concatenate_kwargs(**kwargs):
        nums=""
     for key,value in kwargs.items():
        nums+=value
